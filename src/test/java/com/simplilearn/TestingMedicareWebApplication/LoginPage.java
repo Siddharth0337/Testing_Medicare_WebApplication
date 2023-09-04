@@ -20,7 +20,7 @@ public class LoginPage {
 		driver.get("http://localhost:8080/medicare/home");
 		Thread.sleep(2000);
 		driver.findElement(By.id("login")).click();
-		driver.findElement(By.id("username")).sendKeys("sai@example.com");
+		driver.findElement(By.id("username")).sendKeys("sri@example.com");
 		driver.findElement(By.id("password")).sendKeys("aha@12345");
 		driver.findElement(By.xpath("(//input[@value='Login'])[1]")).click();
 		driver.quit();

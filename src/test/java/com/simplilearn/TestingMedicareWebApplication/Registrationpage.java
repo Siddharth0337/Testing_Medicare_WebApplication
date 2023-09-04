@@ -17,9 +17,9 @@ public class Registrationpage {
 		Thread.sleep(2500);
 		driver.findElement(By.id("signup")).click();
 		Thread.sleep(1500);
-		driver.findElement(By.id("firstName")).sendKeys("sai");
-		driver.findElement(By.id("lastName")).sendKeys("reddy");
-		driver.findElement(By.id("email")).sendKeys("sr@example.com");
+		driver.findElement(By.id("firstName")).sendKeys("sri");
+		driver.findElement(By.id("lastName")).sendKeys("ram");
+		driver.findElement(By.id("email")).sendKeys("sri@example.com");
 		driver.findElement(By.id("contactNumber")).sendKeys("+9 4567645755");
 		driver.findElement(By.id("password")).sendKeys("aha@12345");
 		driver.findElement(By.id("confirmPassword")).sendKeys("aha@12345");
