@@ -8,11 +8,11 @@
   </listeners>
   <test thread-count="5" parallel="methods" name="Test(failed)">
     <classes>
-      <class name="com.simplilearn.TestingMedicareWebApplication.Testcases$testcase001">
+      <class name="com.simplilearn.TestingMedicareWebApplication.Testcases$testcase007">
         <methods>
-          <include name="singup"/>
+          <include name="cart"/>
         </methods>
-      </class> <!-- com.simplilearn.TestingMedicareWebApplication.Testcases$testcase001 -->
+      </class> <!-- com.simplilearn.TestingMedicareWebApplication.Testcases$testcase007 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
